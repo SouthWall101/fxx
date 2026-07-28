@@ -1,0 +1,51 @@
+# ===================== IDEA 配置文件（必须忽略） =====================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+build/
+# 运行调试缓存
+idea_modules/
+.apt_generated
+
+# ===================== Java 编译产物 =====================
+target/
+classes/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# ===================== 日志文件 =====================
+*.log
+logs/
+log/
+*.out
+
+# ===================== 系统缓存、临时文件 =====================
+# Windows
+Thumbs.db
+.DS_Store
+# Mac
+.DS_Store
+._.DS_Store
+
+# ===================== 环境配置、密钥、本地私有配置 =====================
+application-dev.yml
+application-local.properties
+*.env
+*.pem
+*.key
+
+# ===================== Maven/Gradle 缓存 =====================
+.mvn/wrapper/maven-wrapper.jar
+gradle/
+.gradle/
+build.gradle.user
+
+# ===================== 其他临时文件 =====================
+*.tmp
+*.bak
+*.swp
